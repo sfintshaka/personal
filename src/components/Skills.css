@@ -1,0 +1,112 @@
+/* General Styles for Skills Section */
+.skills-section {
+  padding: 2rem;
+  background-color: var(--bg-color); /* Use theme background color */
+}
+
+.skills-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.skills-header h1 {
+  font-size: 2.5rem; /* Match the size of project headings */
+  color: var(--text-color); /* Use theme text color */
+}
+
+/* Skill Category Styles */
+.skill-category {
+  margin-bottom: 2rem;
+}
+
+.skill-category h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem; /* Match the size of project headings */
+  color: var(--text-color); /* Use theme text color */
+  transition: color 0.3s ease;
+}
+
+.skill-category h2:hover {
+  color: var(--accent-color); /* Use theme accent color */
+}
+
+/* Skills Container Styles */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem; /* Space between skill boxes */
+}
+
+/* Skill Box Styles */
+.skill-box {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+  color: var(--text-color); /* Use theme text color */
+  overflow: hidden;
+}
+
+.skill-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 30px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.skill-box .skill-content {
+  text-align: center;
+  color: var(--text-color); /* Use theme text color */
+}
+
+.skill-box i {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.skill-box h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+/* Gradient Backgrounds for Skill Boxes */
+.skill-box.gradient1 {
+  background: linear-gradient(315deg, #03a9f4, #36454F);
+}
+
+.skill-box.gradient2 {
+  background: linear-gradient(315deg, #03a9f4, #ff0058);
+}
+
+.skill-box.gradient3 {
+  background: linear-gradient(315deg, #4dff03, #00d0ff);
+}
+
+.skill-box.gradient4 {
+  background: linear-gradient(315deg, #ffcf4d, #ff0058);
+}
+
+.skill-box.gradient5 {
+  background: linear-gradient(315deg, #ff9a9e, #fad0c4);
+}
+
+.skill-box.gradient6 {
+  background: linear-gradient(315deg, #00c6ff, #0072ff);
+}
+
+.skill-box.gradient7 {
+  background: linear-gradient(315deg, #ff0058, #ffcf4d);
+}
+
+.skill-box:hover i {
+  color: var(--accent-color); /* Highlight icon color on hover */
+}

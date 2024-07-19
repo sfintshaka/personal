@@ -1,0 +1,31 @@
+.footer_container {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer_icons {
+    margin-top: 10px;
+  }
+  
+  .footer_icons a {
+    color: var(--text-color);
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer_icons a:hover {
+    color: #3498db; /* You can choose a color that matches your theme */
+  }
+  
+  .footer_icons i {
+    transition: transform 0.3s ease;
+  }
+  
+  .footer_icons a:hover i {
+    transform: scale(1.1);
+  }
+  
