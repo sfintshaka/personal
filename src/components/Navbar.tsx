@@ -34,7 +34,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, switchTheme }) => {
           <img className="danny-logo" src="D.jpeg" alt="Dannylogo" />
           <div>
             <p>Danny Sithole</p>
-            <p className="hidden md:block">Web Developer, Data Analyst</p>
+            <p className="hidden md:block">Web Developer, Tech Enthusiast</p>
           </div>
         </div>
         
@@ -48,7 +48,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, switchTheme }) => {
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="https://drive.google.com/file/d/1qW3amKeEzoxrQQlV5Q1BVknuDCYbkGnn/view?usp=drive_link">Resume</a></li>
+            <li><a href="https://drive.google.com/file/d/1L44ZlDE9hhSOmHViYj3ubqCvEXOWDLBA/view?usp=sharing">Resume</a></li>
             <li>
               <button onClick={switchTheme} className="p-2 rounded">
                 <img className='moon' src={theme === 'light' ? '/moon.svg' : '/sun.svg'} alt={theme === 'light' ? 'moon' : 'sun'} />

@@ -8,7 +8,8 @@ const ContactMe = () => {
         <div className="text">
           Contact Me
         </div>
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST" action="/">
+        <input type="hidden" name="form-name" value="contact" />
           <div className="form-row">
             <div className="input-data">
               <input type="text" name="first-name" required />

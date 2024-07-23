@@ -4,14 +4,14 @@ const Projects = () => {
   const projects = [
     {
       title: "707 HOLDINGS PTY, LTD",
-      description: "This is the description for project one.",
+      description: "This is a construction website built using react and nextjs, tailwindcss, and CSS.",
       link: "https://707holdings.co.za/",
       gradientClass: "gradient2",
       image: "seveno.jpeg"
     },
     {
       title: "AL-SYED STUDENT ACCOMODATION",
-      description: "This is the description for project two.",
+      description: "Student accomodation designed and developed using react and CSS, typescript.",
       link: "https://alsyeds.co.za/",
       gradientClass: "gradient3",
       image: "alsyed.jpeg"
