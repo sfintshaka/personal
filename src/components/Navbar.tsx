@@ -48,7 +48,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, switchTheme }) => {
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="https://drive.google.com/file/d/1L44ZlDE9hhSOmHViYj3ubqCvEXOWDLBA/view?usp=sharing">Resume</a></li>
+            <li><a href="https://1drv.ms/b/s!AhfCksAazg-5oU4Y_0w7XBH445H-?e=9XWSg7">Resume</a></li>
             <li>
               <button onClick={switchTheme} className="p-2 rounded">
                 <img className='moon' src={theme === 'light' ? '/moon.svg' : '/sun.svg'} alt={theme === 'light' ? 'moon' : 'sun'} />
@@ -65,7 +65,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, switchTheme }) => {
           <li><a href="#projects" onClick={() => setIsOpen(false)}>Projects</a></li>
           <li><a href="#skills" onClick={() => setIsOpen(false)}>Skills</a></li>
           <li><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
-          <li><a href="https://drive.google.com/file/d/1qW3amKeEzoxrQQlV5Q1BVknuDCYbkGnn/view?usp=drive_link">Resume</a></li>
+          <li><a href="https://1drv.ms/b/s!AhfCksAazg-5oU4Y_0w7XBH445H-?e=9XWSg7">Resume</a></li>
           <li>
             <button onClick={switchTheme} className="p-2 rounded">
               <img className='moon' src={theme === 'light' ? '/moon.svg' : '/sun.svg'} alt={theme === 'light' ? 'moon' : 'sun'} />
